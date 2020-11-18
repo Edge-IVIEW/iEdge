@@ -32,7 +32,7 @@ IVIEW Edge AI Solution
 
 ## Pre Installation
 
-This document is for the latest Aimeos TYPO3 **Beta 0.1 release and later**.
+This document is for the latest iEdge **Beta 0.1 release and later**.
 
 - Beta release: 0.1 ( 18/11/2020 )
 
@@ -53,6 +53,9 @@ chmod +x iview-install.sh
 ```
 
 Please wait 15-20 minutes, depend your internet speed.
+
+After install success please reboot your device and plug a monitor.
+
 If have error please create and issue at Github Isssue
 
 
