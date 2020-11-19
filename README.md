@@ -26,11 +26,11 @@ This document is for the latest iEdge **Beta 0.1 release and later**.
 - Beta release: 0.1 ( 18/11/2020 )
 
 - Requirements are required bellow:
-		- SD Card: minimun 20
-		- Hardware: [Jetson Nano 4GB RAM](https://developer.nvidia.com/embedded/jetson-nano-developer-kit), mouse, keyboard and monitor
-		- OS: [Jetson Jetpack 4.3](https://developer.nvidia.com/jetpack-43-archive)
-		- Software Manager: **Advanced Package Tool** (Linux) - APT with lastest update
-		- Networking: internet access 
+- SD Card: minimun 20
+- Hardware: [Jetson Nano 4GB RAM](https://developer.nvidia.com/embedded/jetson-nano-developer-kit), mouse, keyboard and monitor
+- OS: [Jetson Jetpack 4.3](https://developer.nvidia.com/jetpack-43-archive)
+- Software Manager: **Advanced Package Tool** (Linux) - APT with lastest update
+- Networking: internet access 
 	
 ### Installation
 
