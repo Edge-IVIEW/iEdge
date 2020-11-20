@@ -1,7 +1,8 @@
 
 
+
 <a href="https://aimeos.org/">
-    <img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="IVIEW logo" title="IVIEW Edge AI Solution" align="right" height="60" />
+    <img src="https://i.imgur.com/EORKMiE.jpg" alt="IVIEW logo" title="IVIEW Edge AI Solution" align="right" height="60" />
 </a>
 
 IVIEW Edge AI Solution
