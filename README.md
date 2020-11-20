@@ -35,11 +35,11 @@ This document is for the latest iEdge **Beta 0.1 release and later**.
 	
 ### Installation
 
-Connect to Edge Device via SSH and run script bellow
+Connect to Edge Device via SSH and run script bellow with root permission
 ```
-wget https://github.com/Edge-IVIEW/iEdge/releases/download/0.1-beta.1/iview-install.sh
-chmod +x iview-install.sh
-./iview-install.sh
+wget https://github.com/Edge-IVIEW/iEdge/releases/download/0.1-beta.1/install-iedge
+chmod +x install-iedge
+sudo ./install-iedge
 
 ```
 
