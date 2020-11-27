@@ -2,15 +2,14 @@
 
 
 
+
 <a href="https://aimeos.org/">
     <img src="https://i.imgur.com/EORKMiE.jpg" alt="IVIEW logo" title="IVIEW Edge AI Solution" align="right" height="60" />
 </a>
 
 IVIEW Edge AI Solution
 ======================
-[![Total Downloads](https://poser.pugx.org/aimeos/aimeos-typo3/d/total.svg)](https://packagist.org/packages/aimeos/aimeos-typo3)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/?branch=master)
-[![License](https://poser.pugx.org/aimeos/aimeos-typo3/license.svg)](https://packagist.org/packages/aimeos/aimeos-typo3)
+
 
 :star: Star us on GitHub — it helps!
 
@@ -30,7 +29,6 @@ iEdge help manage Edge Device over internet.
 
 -  [Composer](#composer)
 
--  [TYPO3 setup](#typo3-setup)
 
 -  [Extension](#extension)
 
@@ -64,7 +62,7 @@ This document is for the latest iEdge **Beta 0.1 release and later**.
 - SD Card: minimum 30 GB 
 - Hardware: [Jetson Nano 4GB RAM](https://developer.nvidia.com/embedded/jetson-nano-developer-kit), mouse, keyboard and monitor
 - Software Manager: **Advanced Package Tool** (Linux) - APT with lastest update
-- Networking: Internet access 
+- Networking: Internet access with DHCP on first boot.
 
 
 ## Download and Create bootable SD card
@@ -73,8 +71,8 @@ This document is for the latest iEdge **Beta 0.1 release and later**.
 This document is for the latest iEdge AI **0.1 beta release and later**.
   - LTS release: 0.1 beta release
 
-- Please download our ISO at: 
-- After successfully downloaded, boot your SD card with [Rufus](https://rufus.ie/) or other tool.
+- Please download our ISO at: [link 01](https://iedge.s3-ap-southeast-1.amazonaws.com/jetson_nano_edge_ai.zip)
+- After successfully downloaded, unzip to get file image and boot your SD card with [Rufus](https://rufus.ie/) or other tool.
 ![](https://i.imgur.com/TOy3OT1.png)
 
 Wait 5-10 minutes to success and unplug SD device.
