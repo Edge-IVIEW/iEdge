@@ -91,7 +91,9 @@ Wait 5-10 minutes to success and unplug SD device.
 
 ### Use
 
-- Wait 3-5 minutes to open app afer reboot.
+- Wait 3-5 minutes to open app afer reboot. During operation, please keep the internet connection for the device
+
+
 
 ### Composer
 - All requirement be composed inside ISO.
@@ -113,7 +115,7 @@ Wait 5-10 minutes to success and unplug SD device.
 
 ## Page setup
 
-  
+
 
   
 
@@ -125,12 +127,12 @@ Wait 5-10 minutes to success and unplug SD device.
 
   
 
-*  [Web site](https://aimeos.org/integrations/typo3-shop-extension/)
+*  [Web site]()
 
-*  [Documentation](https://aimeos.org/docs/TYPO3)
+*  [Documentation]()
 
-*  [Forum](https://aimeos.org/help/typo3-extension-f16/)
+*  [Forum](/)
 
-*  [Issue tracker](https://github.com/aimeos/aimeos-typo3/issues)
+*  [Issue tracker]()
 
-*  [Source code](https://github.com/aimeos/aimeos-typo3)
+*  [Source code]()
