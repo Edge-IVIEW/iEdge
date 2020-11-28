@@ -65,7 +65,7 @@ This document is for the latest iEdge **Beta 0.1 release and later**.
 - Networking: Internet access with DHCP on first boot.
 
 
-## Download and Create bootable SD card
+## Download ISO and Create bootable SD card
 
  
 This document is for the latest iEdge AI **0.1 beta release and later**.
