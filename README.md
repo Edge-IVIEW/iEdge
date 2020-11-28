@@ -60,6 +60,8 @@ Go to **System Management**, select **Manage BoxAI**
 
 Click **Create Token** and save token. Token will use  to register box.
 
+![](https://i.imgur.com/1jigDUy.png)
+
 ## Pre Installation
 
 This document is for the latest iEdge **Beta 0.1 release and later**.
