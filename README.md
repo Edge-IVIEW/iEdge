@@ -52,7 +52,6 @@ iEdge help manage Edge Device over internet.
 ## Create IVIEW Account
 
 Go to https://go.iview.vn/ and login with your account.
-After successful login, please click button "Create Device".  Please remember yout device's token after create.
 
 Go to **System Management**, select **Manage BoxAI**
 
