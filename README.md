@@ -14,6 +14,7 @@ IVIEW Edge AI Solution
 :star: Star us on GitHub — it helps!
 
 [iEdge](https://iview.vn) is the platform to manage and deploy AI application on ARM architect ( like Jetson .. )
+
 iEdge help manage Edge Device over internet.
 
 [![iEdge demo](https://i.imgur.com/9N95HR0.png)](https://go.iview.vn/)
@@ -52,7 +53,8 @@ iEdge help manage Edge Device over internet.
 ## Create IVIEW Account
 
 Go to https://go.iview.vn/ and login with your account
-After successful login, please click button "Create Device".  Please remember you device's token after create.
+
+After successful login, please click button "Create Device".  Please remember yout device's token after create.
 
 ## Pre Installation
 
