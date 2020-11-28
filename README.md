@@ -26,10 +26,8 @@ iEdge help manage Edge Device over internet.
 
 -  [Installation](#installation)
 
--  [TER](#typo3-extension-repository)
 
 -  [Composer](#composer)
-
 
 -  [Extension](#extension)
 
@@ -81,7 +79,7 @@ Wait 5-10 minutes to success and unplug SD device.
   
 ### Installation
 
-- Insert micro SD card into Jetson Nano. Please wait 2 minutes until Register form appear.
+- Insert micro SD card into Jetson Nano and boot. Please wait 2 minutes until Register form appear.
 	- **STEP 1**: Fill Email, Password and Token into form and press **Next** to verify
 ![](https://i.imgur.com/dM5Uv2q.png)
 	- **STEP 2**: Fill box name, box networking info, camera IP and press "Next" to process. If return error please check connect to camera IP or see back example bellow.![](https://i.imgur.com/UxZA4Dv.png)
