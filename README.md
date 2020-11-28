@@ -3,7 +3,8 @@
 
 
 
-<a href="https://aimeos.org/">
+
+<a href="https://iview.vn/">
     <img src="https://i.imgur.com/EORKMiE.jpg" alt="IVIEW logo" title="IVIEW Edge AI Solution" align="right" height="60" />
 </a>
 
@@ -50,9 +51,13 @@ iEdge help manage Edge Device over internet.
   
 ## Create IVIEW Account
 
-Go to https://go.iview.vn/ and login with your account
-
+Go to https://go.iview.vn/ and login with your account.
 After successful login, please click button "Create Device".  Please remember yout device's token after create.
+
+Go to **System Management**, select **Manage BoxAI**
+![](https://i.imgur.com/X3X3s6c.png)
+
+Click **Create Token** and save token. Token will use  to register box.
 
 ## Pre Installation
 
@@ -80,7 +85,7 @@ Wait 5-10 minutes to success and unplug SD device.
 ### Installation
 
 - Insert micro SD card into Jetson Nano and boot. Please wait 2 minutes until Register form appear.
-	- **STEP 1**: Fill Email, Password and Token into form and press **Next** to verify
+	- **STEP 1**: Fill Email, Password and Token that created into form and press **Next** to verify
 ![](https://i.imgur.com/dM5Uv2q.png)
 	- **STEP 2**: Fill box name, box networking info, camera IP and press "Next" to process. If return error please check connect to camera IP or see back example bellow.![](https://i.imgur.com/UxZA4Dv.png)
 	- **STEP 3**: Select Module to deploy. Currently, we only focus to **attendance** app. Please 5-10 minutes to sucessful and reboot your device. ![](https://i.imgur.com/4hHwoe7.png)
