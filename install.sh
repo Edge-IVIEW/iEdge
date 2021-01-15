@@ -223,7 +223,7 @@ setup_env() {
     if [ "${HAS_SYSTEMD}" = true ]; then
         FILE_IEDGE_SERVICE=${SYSTEMD_DIR}/${SERVICE_IEDGE}
         FILE_IEDGE_ENV=${SYSTEMD_DIR}/${SERVICE_IEDGE}.env
-
+    fi
     # --- if bin directory is read only skip download ---
     if [ "${INSTALL_IEDGE_BIN_DIR_READ_ONLY}" = true ]; then
         INSTALL_IEDGE_SKIP_DOWNLOAD=true
@@ -559,7 +559,7 @@ Restart=always
 RestartSec=5s
 ExecStartPre=-/sbin/modprobe br_netfilter
 ExecStartPre=-/sbin/modprobe overlay
-ExecStart=${BIN_DIR}/iedge --docker \\
+ExecStart=${BIN_DIR}/iedge \\
     ${CMD_IEDGE_EXEC}
 EOF
 }
