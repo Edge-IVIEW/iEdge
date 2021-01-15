@@ -656,7 +656,7 @@ eval set -- $(escape "${INSTALL_IEDGE_EXEC}") $(quote "$@")
 {
     verify_system
     setup_env "$@"
-    download_and_verify
+    #download_and_verify
     create_symlinks
     create_killall
     create_uninstall
