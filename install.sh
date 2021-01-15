@@ -327,7 +327,7 @@ setup_tmp() {
 # # }
 
 # # --- download from github url ---
-# download() {
+download() {
     [ $# -eq 2 ] || fatal 'download needs exactly 2 arguments'
 
     case $DOWNLOADER in
