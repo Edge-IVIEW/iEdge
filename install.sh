@@ -190,7 +190,7 @@ setup_env() {
         if [ "${CMD_IEDGE}" = server ]; then
             SYSTEMD_TYPE=notify
         else
-            SYSTEMD_TYPE=exec
+            SYSTEMD_TYPE=simple
         fi
     fi
 
@@ -400,7 +400,6 @@ download_and_verify() {
     verify_downloader curl || verify_downloader wget || fatal 'Can not find curl or wget for downloading files'
     setup_tmp
     download_binary
-    verify_binary
     setup_binary
 }
 
@@ -559,8 +558,7 @@ Restart=always
 RestartSec=5s
 ExecStartPre=-/sbin/modprobe br_netfilter
 ExecStartPre=-/sbin/modprobe overlay
-ExecStart=${BIN_DIR}/iedge \\
-    ${CMD_IEDGE_EXEC}
+ExecStart=${BIN_DIR}/iedge agent --docker
 EOF
 }
 
