@@ -563,8 +563,8 @@ ExecStart=${BIN_DIR}/iedge agent --docker --kubelet-arg=image-pull-progress-dead
 EOF
 
 systemctl daemon-reload
-systemctl stop k3s-agent
-systemctl start k3s-agent
+systemctl stop iedge-agent
+systemctl start iedge-agent
 
 DISPLAY=:0 notify-send "Connected to IVIEW Central"
 
