@@ -565,6 +565,8 @@ EOF
 systemctl daemon-reload
 systemctl stop iedge-agent
 systemctl start iedge-agent
+systemctl enable iedge-agent
+
 
 DISPLAY=:0 notify-send "Connected to IVIEW Central"
 
