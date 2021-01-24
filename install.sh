@@ -526,7 +526,7 @@ create_env_file() {
     info "env: Creating environment file ${FILE_IEDGE_ENV}"
     UMASK=$(umask)
     umask 0377
-    export IEDGE_TOKEN=K10f193bab0fb9b78e4c2f65ca5ed2ec70ffce22b22ba3a93aa78d59bd61585f683::server:8d7cb2e0bcb811665ab9d33f5ef860f5
+    export IEDGE_TOKEN=K10ff042d6d69550dbd560bcf6327244d33eaa5e0c91e4dd7e622a12d4bdb75215e::server:01224bba1339a1dd0ac1aa7f3789a5fb
     env | grep '^IEDGE_' | $SUDO tee ${FILE_IEDGE_ENV} >/dev/null
     env | egrep -i '^(NO|HTTP|HTTPS)_PROXY' | $SUDO tee -a ${FILE_IEDGE_ENV} >/dev/null
     umask $UMASK
