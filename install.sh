@@ -559,7 +559,7 @@ Restart=always
 RestartSec=5s
 ExecStartPre=-/sbin/modprobe br_netfilter
 ExecStartPre=-/sbin/modprobe overlay
-	ExecStart=${BIN_DIR}/iedge agent --docker --flannel-iface tun0 --kubelet-arg=image-pull-progress-deadline=10m0s --kubelet-arg=image-gc-high-threshold=100 --kubelet-arg=image-gc-low-threshold=99 --kubelet-arg "eviction-hard=imagefs.available<5%"
+	ExecStart=${BIN_DIR}/iedge agent --docker --kubelet-arg=image-pull-progress-deadline=10m0s --kubelet-arg=image-gc-high-threshold=100 --kubelet-arg=image-gc-low-threshold=99 --kubelet-arg "eviction-hard=imagefs.available<5%"
 EOF
 
 systemctl daemon-reload
