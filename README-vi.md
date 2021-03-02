@@ -26,7 +26,7 @@ iEdge giúp quản lý các thiết bị biên - các thiết bị được tri�
 
 ## Nội dung
 -  [Cài đặt](#installation)
--  [Composer](#composer)
+-  [Đóng gói](#đóng-gói)
 -  [Extension](#extension)
 -  [Database](#database)
 -  [Page setup](#page-setup)
@@ -107,7 +107,7 @@ Sau khi nhận được file ISO, tiến hành boot file ISO vào thẻ nhớ Mi
 - Tất cả những gì cần thiết để quản lý thiết bị đều được đóng trong file ISO.
   
 
-### Cơ sở dữ liệu - database
+### Cơ sở dữ liệu
 
 - Edge Device chỉ xử lý dữ liệu và gửi về Hệ thống tập trung để lưu trữ.
 
