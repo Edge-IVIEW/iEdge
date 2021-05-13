@@ -76,7 +76,7 @@ File ISO là file chứa các gói cơ bản, cần thiết cho việc đăng k�
 
 Sau khi nhận được file ISO, tiến hành boot file ISO vào thẻ nhớ MicroSD đã được chuẩn bị sử dụng Rufus hoặc phần mêm tương tự.
 
-### Installation
+### Cài đặt
 - Lắp thẻ nhớ SD vào Jetson Nano và khởi động Jetson Nano sau đó đợi khoảng hai phút để  màn hình hiển thị giao diện đăng kí thiết bị.
 
 -  **BƯỚC 1**: Ở phần **Xác thực** > **1. Cấu hình mạng** > chọn mục **Phương thức kết nối**. Nếu Jetson Nano kết nối đến mạng có DHCP, **chọn kết nối đến mạng dây** và click chọn kiểm tra đường truyền để kiểm tra kết nối mạng. Đợi một lúc cho đến khi cấu hình mạng thành công sẽ có thông báo **Thay đổi network thành công** thì thực hiện bước tiếp theo. Nếu cấu hình mạng không thành công, thực hiện kết nối bằng các phương thức kết nối khác.
